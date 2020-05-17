@@ -88,9 +88,10 @@ void display() // For displaying the node
         node *tmp;
         tmp = head;
         while (tmp != NULL){
-            cout << tmp->data << endl;
+            cout << tmp->data << ' ' ;
             tmp = tmp->next;
         }
+    cout << '\n';
     }
 
 int main()
